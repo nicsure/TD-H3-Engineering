@@ -1,0 +1,69 @@
+TID Station is a multi configuration tool for the TIDRADIO TD-H3, it was designed as a single app replacement for the separate three applications supplied by TIDRADIO. The difference is that settings can be changed in real-time which gives a degree of remote control. Bear in mind however that this is limited, there is no way for real time data to go in the other direction. So it's not possible to do things such as a signal meter, RX/TX state. There is also no way to initiate TX on the PC, although you could use an external microphone.
+
+The app has two modes of operation, Live Mode and Offline Mode.
+
+The App starts up in Offline Mode. In this mode, there is no persistent connection to a radio. This mode is the same as a regular configuration utility. You load in a config from a radio or a file, modify it, then write it back out to rhe radio or to a file.
+
+To enter Live Mode, select the radio's COM port next to "Live Port" on the front screen. This will place the app into Live Mode, from this point all changes you make will be instantly applied to radio in real time. Thus giving some degree of remote control ability. To return to Offline Mode, just select "Offline" from the "Live Port" setting.
+
+When using this app in Live Mode, DO NOT adjust anything on the radio itself, doing so will desynchronize the app and radio and will lead to problems and possibly data corruption. 
+
+Top Buttons
+📡 - Switches to radio configuration. This is not a GPS function, it's just an icon I selected.
+📖 - Switches to the memory channel editor.
+📶 - Switches to the power tuner.
+📻 - Switches to FM Broadcast Tuner settings.
+⚡ - Switches to the firmware flasher.
+
+Bottom Buttons
+📂 - Load configuration file (Offline mode only)
+💾 - Save configuration file.
+🡇 - Read configuration from radio. (Offline mode only)
+🡅 - Write configuration to radio. (Offline mode only)
+
+
+Radio Configuration Display
+===========================
+This is visible when the 📡 button is lit. The screen allows you to adjust almost all radio settings. On the right are many settings that can be adjusted by right clicking and selecting from a menu. This section also contains the Serial Port selection for Live Mode connection to the radio. By leaving the Live Port selection in "Offline" you can use the app as a standard config tool.
+
+Each VFO is arranged as such
+
+L  N        B  12.5k
+NT 144.00000
+NT  ^  445.00000
+R  S        VFO-A
+
+L = Power, click this to switch between [L]ow and [H]igh output power
+N = Bandwidth, change from [N]arrow and [W]ide
+B = [B]usy lock out mode
+12.5k = Click to change frequency step
+NT = Click to set or clear CTCSS or DCS codes for TX and RX
+144.00000 = RX Frequency, this can be adjusted by typing on the keyboard, or clicking the buttons
+445.00000 = TX Frequency, click this to activate split mode. You may then enter a transmit frequency
+^ = Indicates the direction of the split TX frequency. Clicking this turns split mode off.
+R = Click to change [R]everse mode. Swaps the TX and RX frequencies round.
+S = [S]cramble mode.
+VFO-A = Click to change between VFO operation and Memory Channel operation
+
+On VFO-A there are two extra options at the top
+𝄽 = Changes the roger beep sent when keying down. 𝄽=No Beep, ♪=Beep1, ♫=Beep2
+🗘 = Dual Watch mode. 🗘=Dual Watch, ⛛=Dual Watch Disabled
+
+
+Channel Editor Display
+======================
+This section allows you to edit the memory channels. Bear in mind that if in live mode, changes here will instantly be applied to the memory channels on the radio.
+To edit a channel you can click on the setting you wish to change and type in the new setting. However, this is only really needed for frequencies and the channel name. For other settings, right click on the channel you want to save and select the new setting from the menu that appears. You may also select multiple channels and right click, to change multiple settings at once.
+When multiple channels are selected, right clicking and entering a Frequency into the menu will populate all RX frequencies in the selected channels which increment with whatever Frequency Step is currently selected in VFO-A.
+
+Power Tuning Display
+====================
+This section is basically a clone of the TIDRADIO power tuning application and does the same thing. I do not fully know how this works and I simply copied what the TIDRADIO application does.
+
+FM Broadcast Tuner Settings
+===========================
+This section lets you select various settings related to the FM Tuner, you can edit all 25 channels and configure some operation modes.
+
+Firmware Flasher
+================
+Works the same as the TIDRADIO firmware flasher. Follow the same procedure.
