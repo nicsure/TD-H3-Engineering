@@ -15,7 +15,8 @@ I am interested in seeing a frequency analysis into a dummy load of the radio on
 
 
 # TA3782F
-Most of the components in this radio are well known off the shelf stuff. However this TA3782F MCU is not and there is practically no documentation for it. I initially believed this to be some MCU utilizing an Arm Cortex-M4 core, but now I'm almost convinced this is not the case. I'm leaning toward some kind of Intel 8051 MCU architecture as this is providing some meaningful disassembly in IDA Pro.  
+Most of the components in this radio are well known off the shelf stuff. However this TA3782F MCU is not and there is practically no documentation for it. I initially believed this to be some MCU utilizing an Arm Cortex-M4 core, but now I'm almost convinced this is not the case. I'm leaning toward some kind of Intel 8051 MCU architecture such as the AT89S51, P89V51RD2 or W78E052DDG etc..  
+This is providing some meaningful disassembly in IDA Pro.  
 
 Here's a typical snippet of disassembly of the firmware image assuming Intel 8051 code architecture
 
