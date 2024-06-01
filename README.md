@@ -19,7 +19,7 @@ Most of the components in this radio are well known off the shelf stuff. However
 
 Here's a typical snippet of disassembly of the firmware image assuming Intel 8051 code architecture
 
-...
+```
 code:0000B98D code_B98D:                              ; CODE XREF: code_B949+5B↓j
 code:0000B98D                 mov     A, #0x52 ; 'R'
 code:0000B98F                 add     A, RAM_30
@@ -36,6 +36,6 @@ code:0000B9A1                 clr     C
 code:0000B9A2                 subb    A, #0x25 ; '%'
 code:0000B9A4                 jc      code_B98D
 code:0000B9A6                 ret
-...
+```
 
 The structure and logic of this section does seem to make sense, it's performing some kind of loop, incrementing a ram pointer, until some condition is met then returning.
