@@ -38,4 +38,4 @@ code:0000B9A4                 jc      code_B98D
 code:0000B9A6                 ret
 ```
 
-The structure and logic of this section does seem to make sense, it's performing some kind of loop, incrementing a ram pointer, until some condition is met then returning.
+The structure and logic of this section does seem to make sense, it's performing some kind of loop, incrementing a ram pointer, calling some other function until some condition is met then returning.
