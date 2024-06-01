@@ -12,3 +12,7 @@ The latest version 0.30b has the ability to unlock TX all the way down to 18 MHz
 The TD-H3 will not transmit on the Air Band frequencies anyway regardless of the limits.
 
 I am interested in seeing a frequency analysis into a dummy load of the radio on the HF bands though. I suspect it would be the same deal as the Quansheng.
+
+
+# TA3782F
+Most of the components in this radio are well known off the shelf stuff. However this TA3782F MCU is not and there is practically no documentation for it. I initially believed this to be some MCU utilizing an Arm Cortex-M4 core, but now I'm almost convinced this is not the case. I'm leaning toward some kind of Intel 8051 MCU architecture as this is providing some meaningful disassembly in IDA Pro.
