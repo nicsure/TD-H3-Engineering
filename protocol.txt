@@ -27,7 +27,7 @@ Radio > Host : [8 Bytes]
 
 AD0 = Least significant byte of address
 AD1 = Most significant byte of address
-(Note: [AD1<<8 | AD0] mod 0x20 = 0)
+(Note: AD0 mod 0x20 = 0)
 CKS = Regular additive checksum of the 32 data bytes
 
 
