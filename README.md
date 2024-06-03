@@ -1,5 +1,7 @@
 # TD-H3-Engineering
 
+# Everything here is beta or experimental in nature. I cannot guarantee it will not cause damage or data corruption to equipment being used with it. So you do so at your own risk.
+
 Facebook: https://www.facebook.com/groups/456942886822492
 
 # TID Station
