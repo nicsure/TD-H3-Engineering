@@ -5,6 +5,7 @@
 Facebook: https://www.facebook.com/groups/456942886822492
 
 # patched_H3_240530.BIN
+https://github.com/nicsure/TD-H3-Engineering/blob/main/patched_H3_240530.BIN  
 A (somewhat) usable modded firmware.  
 Menu item 37 (PTT ID) has been replaced by a Modulation selection menu. There are 4 options  
 OFF - No modulation over ride, just operate as normal.  
