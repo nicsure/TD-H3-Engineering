@@ -4,6 +4,21 @@
 
 Facebook: https://www.facebook.com/groups/456942886822492
 
+# patched_H3_240530.BIN
+A (somewhat) usable modded firmware.  
+Menu item 37 (PTT ID) has been replaced by a Modulation selection menu. There are 4 options  
+OFF - No modulation over ride, just operate as normal.  
+AM - Force AM mode  
+USB - Force USB mode  
+FM - Force FM mode  
+Sorry for having to replace a menu option, but I'm not yet at the point where I can add new menus.  
+To set the modulation on a memory channel with Chirp etc.. The equivalent PTT ID options are  
+OFF = OFF  
+BOT = AM  
+EOT = USB  
+BOTH = FM  
+
+
 # TID Station
 An application designed to replace the three apps supplied by TIDRADIO into a single app.  
 It also allows configuration changes to be made in real time (Live Mode) which gives some remote functionality.
