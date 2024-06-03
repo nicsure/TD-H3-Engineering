@@ -17,7 +17,7 @@ OFF = OFF
 BOT = AM  
 EOT = USB  
 BOTH = FM  
-There is a quirk with this that I have not yet been able to eliminate, when switching VFOs between A and B it doesn't update the modulation mode immediatly and you have to perform another action to get it to kick in.
+There is a quirk with this that I have not yet been able to eliminate, when switching VFOs between A and B it doesn't update the modulation mode immediately  and you have to perform another action to get it to kick in.
 
 
 # TID Station
