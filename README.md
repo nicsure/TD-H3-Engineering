@@ -22,7 +22,7 @@ There is a quirk with this that I have not yet been able to eliminate, when swit
 
 
 # TID Station
-# NOTE: TID Station has been withdrawn due to the stupid, inept and garbage malware detection of Windows. I'm sick to death of it, Microsoft need to fix their sh*t. All the f**(ing software does is access a serial port, what the HELL is there to detect? 
+# NOTE: TID Station has been withdrawn due to the stupid, inept and garbage malware detection of Windows. I'm sick to death of it, Microsoft need to fix their stuff.
 
 An application designed to replace the three apps supplied by TIDRADIO into a single app.  
 It also allows configuration changes to be made in real time (Live Mode) which gives some remote functionality.
