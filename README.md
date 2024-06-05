@@ -22,7 +22,7 @@ There is a quirk with this that I have not yet been able to eliminate, when swit
 
 
 # TID Station
-# Virus/Malware detections are false positives. I have no idea why this is happening.
+# Virus/Malware detections are false positives. I have no idea why this is happening. If you are worried then don't download and use it.
 
 An application designed to replace the three apps supplied by TIDRADIO into a single app.  
 It also allows configuration changes to be made in real time (Live Mode) which gives some remote functionality.
