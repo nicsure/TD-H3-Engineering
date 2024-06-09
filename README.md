@@ -34,6 +34,22 @@ The TD-H3 will not transmit on the Air Band frequencies anyway regardless of the
 
 I am interested in seeing a frequency analysis into a dummy load of the radio on the HF bands though. I suspect it would be the same deal as the Quansheng.
 
+0.34b onwards incorporates some firmware mods for extra functions.  
+
+Modulation Override  
+S-Meter  
+
+This is very  experimental at this stage and I'm dealing with low level assembly here, so don't expect butter smooth functionality yet, this is work in progress.  
+To enable the extended functions, you need to flash a patched firmware, this can be accomplished in the firmware flashing menu by checking the options under the "Patches" selection. Please note that the patches are only compatible with the original firmware version 240530 (Do not use my previous Modded firmwares, they were just tests, use the original firmware). You can also use the "Save" button to save the patched firmware .BIN file to disk and use another firmware flashing application if you wish.  
+
+The S-Meter is displayed under the two VFOs and should move as signals are receieved. It's not fancy looking at the moment, in fact it's just a re-purposed progress bar, I'll make it look a little nicer in future updates.  
+
+To use the Modulation override click the "〜" top right of the app window, this will cycle through modulation modes.  
+〜 = No override, the radio simply selects the mode it would normally, such as AM in Air Band and FM everywhere else.  
+AM/USB/FM = Forces the selected mode regardless of what the radio would normally do on a particular frequency.  
+
+Both extended mods require operation in Live Mode to function.  
+There is also a fine tune system in place, you can do this by right clicking the step selection on the VFOs. Note that this does not get saved to the radio, it's local to TID Station only.  
 
 # TA3782F
 Most of the components in this radio are well known off the shelf stuff. However this TA3782F MCU is not and there is practically no documentation for it. I initially believed this to be some MCU utilizing an Arm Cortex-M4 core, but now I'm almost convinced this is not the case. I'm leaning toward some kind of Intel 8051 MCU architecture such as the AT89S51, P89V51RD2 or W78E052DDG etc..  
