@@ -16,7 +16,7 @@ Host > Radio : 0x52 AD1 AD0 0x20
 Radio > Host : 0x57 AD1 AD0 0x20 CKS [32 bytes]
 
 To write data
-Host > Radio : 0x57 AD1 AD0 0x20 CKS [32 bytes]
+Host > Radio : 0x57 AD1 AD0 0x20 [32 bytes] CKS
 Radio > Host : 0x06 (Ack)
 
 To end the transaction
