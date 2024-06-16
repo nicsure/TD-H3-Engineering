@@ -38,7 +38,9 @@ I am interested in seeing a frequency analysis into a dummy load of the radio on
 0.34b onwards incorporates some firmware mods for extra functions.  
 
 Modulation Override  
-S-Meter  
+S-Meter
+Spectrum Scope
+PTT (PC Side)
 
 This is very  experimental at this stage and I'm dealing with low level assembly here, so don't expect butter smooth functionality yet, this is work in progress.  
 To enable the extended functions, you need to flash a patched firmware, this can be accomplished in the firmware flashing menu by checking the options under the "Patches" selection. Please note that the patches are only compatible with the original firmware version 240530 (Do not use my previous Modded firmwares, they were just tests, use the original firmware). You can also use the "Save" button to save the patched firmware .BIN file to disk and use another firmware flashing application if you wish.  
@@ -49,7 +51,7 @@ To use the Modulation override click the "〜" top right of the app window, this
 〜 = No override, the radio simply selects the mode it would normally, such as AM in Air Band and FM everywhere else.  
 AM/USB/FM = Forces the selected mode regardless of what the radio would normally do on a particular frequency.  
 
-Both extended mods require operation in Live Mode to function.  
+All extended mods require operation in Live Mode to function and require the use of the USB-C port.
 There is also a fine tune system in place, you can do this by right clicking the step selection on the VFOs. Note that this does not get saved to the radio, it's local to TID Station only.  
 
 # TA3782F
