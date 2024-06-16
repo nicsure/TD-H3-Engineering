@@ -38,10 +38,10 @@ I am interested in seeing a frequency analysis into a dummy load of the radio on
 0.34b onwards incorporates some firmware mods for extra functions.  
 
 Modulation Override  
-S-Meter
-Spectrum Scope
-PTT (PC Side)
-
+S-Meter  
+Spectrum Scope  
+PTT (PC Side)  
+  
 This is very  experimental at this stage and I'm dealing with low level assembly here, so don't expect butter smooth functionality yet, this is work in progress.  
 To enable the extended functions, you need to flash a patched firmware, this can be accomplished in the firmware flashing menu by checking the options under the "Patches" selection. Please note that the patches are only compatible with the original firmware version 240530 (Do not use my previous Modded firmwares, they were just tests, use the original firmware). You can also use the "Save" button to save the patched firmware .BIN file to disk and use another firmware flashing application if you wish.  
 
