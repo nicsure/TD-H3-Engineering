@@ -4,22 +4,16 @@
 
 Facebook: https://www.facebook.com/groups/456942886822492
 
-# patched_H3_240530.BIN
-# This firmware is just a test, DO NOT use it as the base firmware for patching in TID Station.
-https://github.com/nicsure/TD-H3-Engineering/blob/main/patched_H3_240530.BIN  
-A (somewhat) usable modded firmware.  
-Menu item 37 (PTT ID) has been replaced by a Modulation selection menu. There are 4 options  
-OFF - No modulation over ride, just operate as normal.  
-AM - Force AM mode  
-USB - Force USB mode  
-FM - Force FM mode  
-Sorry for having to replace a menu option, but I'm not yet at the point where I can add new menus.  
-To set the modulation on a memory channel with Chirp etc.. The equivalent PTT ID options are  
-OFF = OFF  
-BOT = AM  
-EOT = USB  
-BOTH = FM  
-There is a quirk with this that I have not yet been able to eliminate, when switching VFOs between A and B it doesn't update the modulation mode immediately  and you have to perform another action to get it to kick in.
+# NICSURE MOD
+# This firmware is a stand alone radio only firmware. It is not to be used with TIDSTATION and  not to be flashed with TIDSTATION. GET IT?  
+Fixes the mic gain menu (menu 45) so it actually works.  
+Full width S-Meter at the top of the display. Unfortunately you lose the TX power reading, but I'll fix that later.  
+Menu item 44 (PONMSG) has been replaced by a Modulation selection menu. There are 3 options  
+- OFF - No modulation over ride, just operate as normal.  
+- AM - Force AM mode  
+- USB - Force USB mode  
+
+
 
 
 # TID Station
