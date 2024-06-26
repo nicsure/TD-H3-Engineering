@@ -1,0 +1,18 @@
+ ID    KEY
+ 0 = no key
+ 1 = 0
+ 2 = 1
+ ...
+ 9 = 8
+ A = 9
+ B = Menu (blue)
+ C = up
+ D = down
+ E = Cancel (red)
+ F = *
+10 = #
+12 = flashlight
+13 = PTT-A (large)
+1A = PTT-B (small)
+
+IDs are in hexadecimal.
