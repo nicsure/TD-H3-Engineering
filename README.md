@@ -6,13 +6,11 @@ Facebook: https://www.facebook.com/groups/456942886822492
 
 # NICSURE MOD
 # This firmware is a stand alone radio only firmware. It is not to be used with TIDSTATION and  not to be flashed with TIDSTATION. GET IT?  
-Fixes the mic gain menu (menu 45) so it actually works.  
-Full width S-Meter at the top of the display. Unfortunately you lose the TX power reading, but I'll fix that later.  
-Menu item 44 (PONMSG) has been replaced by a Modulation selection menu. There are 3 options  
-- OFF - No modulation over ride, just operate as normal.  
-- AM - Force AM mode  
-- USB - Force USB mode  
-
+Nicsure mod is changing with every release. It has a custom menu system. To access it, press the Menu (Blue) button to open the regular menu then press PTT-A to openthe custom menu.  
+In the custom menu:  
+Up/Down - Change value of curent setting.
+Menu (Blue) - Advance to next setting.
+Cancel (Red) - Exit menu.
 
 
 
