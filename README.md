@@ -6,11 +6,11 @@ Facebook: https://www.facebook.com/groups/456942886822492
 
 # NICSURE MOD
 # This firmware is a stand alone radio only firmware. It is not to be used with TIDSTATION and  not to be flashed with TIDSTATION. GET IT?  
-Nicsure mod is changing with every release. It has a custom menu system. To access it, press the Menu (Blue) button to open the regular menu then press PTT-A to openthe custom menu.  
+Nicsure mod is changing with every release. It has a custom menu system. To access it, press the Menu (Blue) button to open the regular menu then press PTT-A to open the custom menu.  
 In the custom menu:  
-Up/Down - Change value of curent setting.
-Menu (Blue) - Advance to next setting.
-Cancel (Red) - Exit menu.
+Up/Down - Change value of curent setting.  
+Menu (Blue) - Advance to next setting.  
+Cancel (Red) - Exit menu.  
 
 
 
