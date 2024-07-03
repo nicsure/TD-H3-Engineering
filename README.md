@@ -12,6 +12,20 @@ Up/Down - Change value of curent setting.
 Menu (Blue) - Advance to next setting.  
 Cancel (Red) - Exit menu.  
 
+Current available functions.
+Full size S-Meter enabled by standard.
+
+Menu 0 AM/USB Ovr. Overrides the default mode of operation and forces reception only into AM or USB. When OFF the radio will operate as normal.  
+  
+Menu 1 Kill Killer. When enabled, Prevents the radio from entering Kill Mode. It may still show "Kill All Lock", just press the red button, then turn off and on and it'll be unkilled.  
+  
+Menu 2 Fine Tune. Allows finer tuning steps, useful for USB listening.  
+  
+Menu 3 Mod Hooks. When set to "Blocked", prevents most of the mod's functions from operating. Meant as a trouble shooting feature, if a problem is encountered, set this to Blocked to see if it still occurs. If it does, it's likely not a problem with the mod but with the base firmware, if it doesn't then it's probably some error in the mod.  
+  
+Menu 4 Tone Monitor. When enabled, displays the CTCSS tone currently being received on the device's screen.
+
+
 
 
 # TID Station
