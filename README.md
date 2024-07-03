@@ -11,10 +11,11 @@ In the custom menu:
 Up/Down - Change value of curent setting.  
 Menu (Blue) - Advance to next setting.  
 Cancel (Red) - Exit menu.  
-
-Current available functions.
-Full size S-Meter enabled by standard.
-
+  
+Current available functions.  
+  
+Full size S-Meter enabled by standard.  
+  
 Menu 0 AM/USB Ovr. Overrides the default mode of operation and forces reception only into AM or USB. When OFF the radio will operate as normal.  
   
 Menu 1 Kill Killer. When enabled, Prevents the radio from entering Kill Mode. It may still show "Kill All Lock", just press the red button, then turn off and on and it'll be unkilled.  
