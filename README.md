@@ -24,17 +24,17 @@ Menu 2 Fine Tune. Allows finer tuning steps, useful for USB listening.
   
 Menu 3 Mod Hooks. When set to "Blocked", prevents most of the mod's functions from operating. Meant as a trouble shooting feature, if a problem is encountered, set this to Blocked to see if it still occurs. If it does, it's likely not a problem with the mod but with the base firmware, if it doesn't then it's probably some error in the mod.  
   
-Menu 4 Tone Monitor. When enabled, displays the CTCSS tone currently being received on the device's screen.
-
-Menu 5 Batt Display: Choose between the regular battery icon and a percentage readout.
-
-Menu 6 Sigbar Style: Selects a solid or segmented RSSI bar.
-
-Menu 7 Freq Adjust: Causes a positive shift in frequency by the selected amount.
-
-Menu 8 WL Copy Freq: Moves the Wireless Copy function's frequency to 433.250 MHz in order to be compliant with some durastictional regulations.
-
-Menu 0 PTT VFO Sel: When enabled, switches VFO when the PTT other than the selected VFO is pressed.
+Menu 4 Tone Monitor. When enabled, displays the CTCSS tone currently being received on the device's screen.  
+  
+Menu 5 Batt Display: Choose between the regular battery icon and a percentage readout.  
+  
+Menu 6 Sigbar Style: Selects a solid or segmented RSSI bar.  
+  
+Menu 7 Freq Adjust: Causes a positive shift in frequency by the selected amount.  
+  
+Menu 8 WL Copy Freq: Moves the Wireless Copy function's frequency to 433.250 MHz in order to be compliant with some durastictional regulations.  
+  
+Menu 9 PTT VFO Sel: When enabled, switches VFO when the PTT other than the selected VFO is pressed.  
 
 
 
