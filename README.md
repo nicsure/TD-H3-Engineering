@@ -36,7 +36,7 @@ Menu 8 WL Copy Freq: Moves the Wireless Copy function's frequency to 433.250 MHz
   
 Menu 9 PTT VFO Sel: When enabled, switches VFO when the PTT other than the selected VFO is pressed.  
   
-There is also an Ultra Low Power setting that replaces the regular "Scramble" menu 46. When enabled the TX power is set to the lowest possible output. Used primarily for local hotspot or repeater use when you are very close to it. This feature is channel and VFO based.
+There is also an Ultra Low Power setting that replaces the regular "Scramble" menu 46. When enabled the TX power is set to the lowest possible output (usually around 100 to 250 mW). Used primarily for local hotspot or repeater use when you are very close to it. This feature is channel and VFO based.
 
 
 
