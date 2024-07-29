@@ -26,6 +26,17 @@ Menu 3 Mod Hooks. When set to "Blocked", prevents most of the mod's functions fr
   
 Menu 4 Tone Monitor. When enabled, displays the CTCSS tone currently being received on the device's screen.
 
+Menu 5 Batt Display: Choose between the regular battery icon and a percentage readout.
+
+Menu 6 Sigbar Style: Selects a solid or segmented RSSI bar.
+
+Menu 7 Freq Adjust: Causes a positive shift in frequency by the selected amount.
+
+Menu 8 WL Copy Freq: Moves the Wireless Copy function's frequency to 433.250 MHz in order to be compliant with some durastictional regulations.
+
+Menu 0 PTT VFO Sel: When enabled, switches VFO when the PTT other than the selected VFO is pressed.
+
+
 
 
 
